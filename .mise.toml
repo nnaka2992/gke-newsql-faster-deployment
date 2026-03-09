@@ -1,0 +1,15 @@
+[tools]
+kubectl = "1.31"
+helm = "3.16"
+jq = "latest"
+
+[env]
+GKE_CLUSTER_NAME = "newsql-bench"
+GKE_REGION = "asia-northeast1"
+GKE_ZONE = "asia-northeast1-a"
+GKE_MACHINE_TYPE = "e2-standard-4"
+GKE_NUM_NODES = "1"
+GKE_DISK_SIZE = "50"
+
+# GCP_PROJECT_ID is required but user-specific — set it in .mise.local.toml
+GCP_PROJECT_ID = { required = "Set GCP_PROJECT_ID in .mise.local.toml" }

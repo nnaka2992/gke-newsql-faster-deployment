@@ -1,0 +1,6 @@
+.mise.local.toml
+.claude/
+verification/cockroach/helm-charts/
+verification/cockroach/client-secure.yaml
+verification/cockroach/pf.*
+verification/tidb/pf*
