@@ -1,5 +1,7 @@
 # テーマ: 3大NewSQL、k8sでセルフホストするならどれが一番簡単か？
-##レギュレーション
+
+## レギュレーション
+
 - mysql/psqlクライアントから接続できるまでを測定
 - ホストするまでの手順数 x 実行時間でスコアを計算し、スコアか小さい順ほど順位が上
 - 公式ドキュメントの手順通りやる
@@ -29,16 +31,19 @@
 - マシンタイプ: `e2-standard-4` (4 vCPU, 16 GB) x 3ノード
 - 合計リソース: 12 vCPU, 48 GB
 - ディスク: 50 GB SSD / ノード
+
 ## 対象手順書
+
 ### 対象手順の選定方法
 
 最新バージョンのquickstart
 複数手順ある場合、推奨の手順または一番最初に記載の手順
 
 ### 対象手順書
+
 - YugabyteDB
-  - https://docs.yugabyte.com/stable/quick-start/kubernetes/
+  - <https://docs.yugabyte.com/stable/quick-start/kubernetes/>
 - TiDB
-  - https://docs.pingcap.com/tidb-in-kubernetes/stable/get-started/
+  - <https://docs.pingcap.com/tidb-in-kubernetes/stable/get-started/>
 - CockroachDB
-  - https://www.cockroachlabs.com/docs/stable/deploy-cockroachdb-with-cockroachdb-operator
+  - <https://www.cockroachlabs.com/docs/stable/deploy-cockroachdb-with-cockroachdb-operator>
